@@ -7,8 +7,7 @@ import (
 	"math/rand"
 )
 
-// Random is a wrapper around a math/rand random generator initialized by
-// providing a seed or reading data from an entropy source.
+// Random is a wrapper around a math/rand random generator
 type Random struct {
 	rng *rand.Rand
 }
