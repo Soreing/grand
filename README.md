@@ -1,5 +1,10 @@
 # Go Random Generator
 
+![Build](https://github.com/soreing/grand/actions/workflows/build_status.yaml/badge.svg)
+![Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/Soreing/4b6f950f01f3e6e5b9ed17b268664538/raw/grand)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Soreing/grand)](https://goreportcard.com/report/github.com/Soreing/grand)
+[![Go Reference](https://pkg.go.dev/badge/github.com/Soreing/grand.svg)](https://pkg.go.dev/github.com/Soreing/grand)
+
 Grand is a simple random generator wrapper on math/rand seeded by entropy from crypto/rand
 
 ## Usage
