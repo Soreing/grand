@@ -26,16 +26,3 @@ package.
 // New randomizer from source
 rng := grand.New(src)
 ```
-
-The Fill method fills a destination byte array with random values like `Read`
-from math/rand, but unlike Read, it is thread safe and can be called concurrently.
-It also does not return an error to be handled.
-
-```golang
-// Fill slice with random data
-dst := make([]byte, 20)
-rng.Fill(dst)
-
-// Prints 20 random bytes
-fmt.Println(dst)
-```
